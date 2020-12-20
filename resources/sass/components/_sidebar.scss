@@ -1,0 +1,23 @@
+.sidebar {
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #eee;
+
+    &-list {
+        padding: 15px;
+        display: block;
+        color: #777 !important;
+
+        &:hover,
+        :active {
+            color: #111;
+            text-decoration: none;
+            transition: all ease .3s;
+            background-color: #f1f1f1;
+        }
+
+        &:not(:last-child) {
+            border-radius: 1px solid #eee;
+        }
+    }
+}

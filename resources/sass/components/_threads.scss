@@ -1,0 +1,33 @@
+.threads {
+    display: block;
+    background-color: red;
+    width: 100%;
+    color: #333;
+
+    &:hover,
+    :active {
+        text-decoration: none;
+        color: #333;
+    }
+
+    &-body {
+        padding: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &-title {
+        font-size: 2rem;
+
+        &:hover {
+            text-decoration: none;
+            color: #0063AF;
+        }
+    }
+
+    &-published {
+        &:hover {
+            text-decoration: none;
+            color: #0063AF;
+        }
+    }
+}
